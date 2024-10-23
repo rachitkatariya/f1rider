@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>F1 Rider Game</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="main">
+      <h1>F1 Rider Speed Game Challenge</h1>
+      <p id="introText">
+        Can you beat the F1 rider speed? Click the button as fast as you can for
+        the next 23 seconds!
+        <br />
+        A F1 rider has an average speed of 127 clicks per 23 seconds.
+      </p>
+
+      <p id="countdown" style="font-size: 2rem;"></p>
+
+      <p id="timer" style="display:none;">15</p>
+
+      <p id="clickCount" style="display:none;">Clicks: 0</p>
+
+      <button id="startButton">Start Challenge</button>
+      <button id="clickButton" style="display:none;">Click me!</button>
+
+      <video id="endVideo" width="640" height="480" style="display:none;">
+        <source src="video.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+    </div>
+    <script src="scripts.js"></script>
+  </body>
+</html>
+
