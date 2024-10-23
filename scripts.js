@@ -40,7 +40,7 @@ function startGame() {
 function startTimer() {
   const timerInterval = setInterval(() => {
     timeLeft--;
-    timerDisplay.textContent = `Time Left: ${timeLeft}`;
+    timerDisplay.textContent = `${timeLeft}`;
     
     if (timeLeft <= 0) {
       clearInterval(timerInterval);
