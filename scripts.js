@@ -8,7 +8,7 @@ const clickButton = document.getElementById("clickButton");
 const endVideo = document.getElementById("endVideo");
 
 let clickCount = 0;
-let timeLeft = 1;
+let timeLeft = 20;
 
 // Function to start the countdown before the game starts
 function startCountdown() {
